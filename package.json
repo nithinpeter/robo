@@ -1,0 +1,16 @@
+{
+  "name": "robo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/jest",
+    "start": "node ./src/index.js",
+    "lint": "node_modules/.bin/eslint ./"
+  },
+  "author": "nithinpeter7@gmail.com",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^17.0.3"
+  }
+}
